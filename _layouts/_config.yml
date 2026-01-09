@@ -1,0 +1,23 @@
+title: "BAIC Lab"
+description: "Behavior & AI Collaboration — research at the intersection of people and intelligent systems."
+url: ""
+markdown: kramdown
+
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+  publications:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-feed
